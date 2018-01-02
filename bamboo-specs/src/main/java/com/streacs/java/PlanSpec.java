@@ -67,6 +67,7 @@ public class PlanSpec {
             project(),
             "STREACS Atlassian Jira ServiceDesk", "B64EEA")
             .enabled(true)
+            .noPluginConfigurations()
             .noNotifications()
             .linkedRepositories("DCK - STREACS Atlassian Jira ServiceDesk (master)")
             .planBranchManagement(new PlanBranchManagement()
